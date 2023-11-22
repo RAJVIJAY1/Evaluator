@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <title>Calculator | solve</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="heading">Evaluate</h2>
+      <input type="text" class="inputBox" readonly placeholder="0" />
+
+      <div class="buttonBox">
+        <button class="btn clearBtn">AC</button>
+        <button class="btn deleteBtn">DEL</button>
+
+        <button class="btn" onclick="calculation('%')">%</button>
+        <button class="btn" onclick="calculation('/')">/</button>
+        <button class="btn" onclick="calculation(7)">7</button>
+        <button class="btn" onclick="calculation(8)">8</button>
+        <button class="btn" onclick="calculation(9)">9</button>
+        <button class="btn" onclick="calculation('*')">x</button>
+        <button class="btn" onclick="calculation(4)">4</button>
+        <button class="btn" onclick="calculation(5)">5</button>
+        <button class="btn" onclick="calculation(6)">6</button>
+        <button class="btn" onclick="calculation('-')">-</button>
+        <button class="btn" onclick="calculation(1)">1</button>
+        <button class="btn" onclick="calculation(2)">2</button>
+        <button class="btn" onclick="calculation(3)">3</button>
+        <button class="btn" onclick="calculation('+')">+</button>
+        <button class="btn" onclick="calculation(0)">0</button>
+        <button class="btn" onclick="calculation('.')">.</button>
+
+        <button class="btn equleBtn">=</button>
+      </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+  </body>
+</html>
